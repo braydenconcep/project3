@@ -61,25 +61,133 @@ header {
   font-size: 25px;
   display: flex;
   margin-left: 12vw;
-  translate: -1rem -2.25rem;
-}
-
-h2 {
-  font-family: "uppercut-angle", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  translate: -1.5rem -2.25rem;
 }
 
 body {
   height: 100vh;
-  background-color: #bebebe;
+  background-color: #565656;
+}
+
+.date {
+  font-family: uppercut-angle, sans-serif;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+.address {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.imgsize-1 {
+  border: solid 5px #b2a4d4;
+  height: 25rem;
+  width: 15.5rem;
+}
+.imgsize-2 {
+  border: solid 5px #b2a4d4;
+  height: 25rem;
+  width: 42.5rem;
+}
+.imgsize-3 {
+  border: solid 5px #b2a4d4;
+  height: 25rem;
+  width: 31rem;
+}
+
+.sdcc {
+  height: 25rem;
+  width: 50rem;
+  border: solid 5px #b2a4d4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -10rem;
 }
 
 footer {
   background-color: #b2a4d4;
-  position: absolute;
+  position: fixed;
   height: 50px;
   bottom: 0;
   width: 100vw;
+  font-size: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1rem;
+  margin-right: 1rem;
+
+}
+
+
+/* Merch */
+
+.tshirt {
+  width: 50rem;
+  height: 50rem;
+  display: block;
+  flex-direction: column;
+  margin-top: -8rem;
+  margin-left: 20rem;
+}
+
+.totebag {
+ width: 30rem;
+ height: 30rem;
+ display: inline-block;
+ flex-direction: column;
+ margin-bottom: 10rem;
+
+}
+
+.waterbottle {
+  width: 30rem;
+  height: 30rem;
+  display: inline-block;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+.hat {
+  width: 20rem;
+  height:20rem;
+  display: inline-block;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+
+/*About Page*/
+
+.partner {
+  text-align: center;
+  font-family: uppercut-angle, sans-serif;
+  font-size: 25px;
+
+}
+
+.partners {
+  height:15rem;
+  width: 15rem;
+  display: block;
+  flex-direction: column;
+  margin-bottom: 0;
+  margin-left: 37.5rem;
+}
+
+.info {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+.proceeds {
+  text-align: center;
+  font-size: 25px;
+  
 }
