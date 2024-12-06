@@ -102,10 +102,10 @@ body {
   height: 25rem;
   width: 50rem;
   border: solid 5px #b2a4d4;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -10rem;
+  display: inline-flex;
+  margin-left: 21rem;
+  margin-bottom: 10rem;
+
 }
 
 footer {
@@ -121,7 +121,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding-inline: 1rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
 
 }
 
@@ -168,6 +168,7 @@ footer {
   text-align: center;
   font-family: uppercut-angle, sans-serif;
   font-size: 25px;
+  margin-top:6rem;
 
 }
 
@@ -176,7 +177,7 @@ footer {
   width: 15rem;
   display: block;
   flex-direction: column;
-  margin-bottom: 0;
+  margin-bottom: 10rem;
   margin-left: 37.5rem;
 }
 
@@ -185,9 +186,12 @@ footer {
   text-align: center;
   margin-left: 15rem;
   margin-right: 15rem;
+  margin-top: 2rem;
 }
 .proceeds {
-  text-align: center;
+  display: inline-block;
+  margin-left: 5rem;
+  margin-bottom: 50rem;
   font-size: 25px;
   
 }
