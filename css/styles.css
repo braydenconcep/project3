@@ -58,9 +58,10 @@ header {
   color: #ffffff;
   font-family: "newsserif-large-variable", sans-serif;
   font-variation-settings: "wght" 416;
-  font-size: 40px;
+  font-size: 25px;
   display: flex;
   margin-left: 12vw;
+  translate: -1rem -2.25rem;
 }
 
 h2 {
