@@ -186,22 +186,6 @@ footer {
   
 }
 
-.circle {
-  
-    
-    width: 100px;             /* Set the width of the circle */
-    height: 100px;            /* Set the height of the circle (same as width) */
-    background-color: #3498db; /* Circle color (can be changed) */
-    border-radius: 50%;       /* Makes the element circular */
-    display: flex;            /* Enable Flexbox */
-    justify-content: center;  /* Center the text horizontally */
-    align-items: center;      /* Center the text vertically */
-    color: white;             /* Text color */
-    font-size: 20px;         
- 
-  
-}
-
 /*About Page*/
 
 .bible {
