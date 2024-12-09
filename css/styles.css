@@ -296,3 +296,143 @@ footer {
   margin-bottom: 10px;
   margin-top: 5px;
 }
+
+/*Phone Screen*/
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    background-color: #565656;
+  }
+  .imgtitle {
+    height: 8rem;
+    margin-top: 0;
+    margin-left: 0rem;
+    margin-inline: 0rem;
+    translate: -2.5rem 0;
+    text-align: center;
+  }
+  header {
+    position: relative;
+    top: 0;
+    width: 100vw;
+  }
+  .header-white {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    height: 4.25rem;
+    padding-inline: .5rem;
+  }
+  .header-gold {
+    background-color: #ccba78;
+    height: 1.75rem;
+  }
+  .logo-container {
+    display: flex;
+  }
+  
+  .logo {
+    width: 5.5rem;
+    height: 5.5rem;
+    translate: 0 2.25rem;
+  }
+  .tabs {
+    font-family: "newsserif-large-variable", sans-serif;
+    font-variation-settings: "wght" 416;
+    color: #ccba78;
+    font-size: 20px;
+    border: solid 2px #b2a4d4;
+    background-color: #ffffff;
+    translate: -34.5rem 5rem;
+    padding-inline: 2rem;
+  }
+  .title {
+    color: #ffffff;
+    font-family: "newsserif-large-variable", sans-serif;
+    font-variation-settings: "wght" 416;
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+    margin-left: 18vw;
+    translate: 3.75rem -1.25rem;
+  }
+  .imgsize-1 {
+    border: solid 2px #b2a4d4;
+    height: 20rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32.5vw;
+    margin-top: 1rem;
+  }
+  .imgsize-2 {
+    border: solid 2px #b2a4d4;
+    height: 15rem;
+    width: 28rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6.5vw;
+  }
+  .imgsize-3 {
+    border: solid 2px #b2a4d4;
+    height: 15rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3.5vw;
+    margin-bottom: 2rem;
+  }
+  footer {
+    background-color: #b2a4d4;
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    width: 100vw;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 0rem;
+    margin-right: 10rem;
+  
+  }
+  .sdcc {
+    height: 15rem;
+    width: 32rem;
+    border: solid 2px #b2a4d4;
+    display: inline-flex;
+    margin-left: 0rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  
+  }
+  .date {
+    font-family: uppercut-angle, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  
+  }
+  .date-1 {
+    font-family: uppercut-angle, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1;
+  
+  }
+  .address {
+    font-size: 15px;
+    text-align: center;
+  
+  }
+
+
+}
